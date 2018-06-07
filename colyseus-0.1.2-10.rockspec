@@ -1,11 +1,11 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "colyseus"
-version = "0.1.2-9"
+version = "0.1.2-10"
 
 -- LuaDist source
 source = {
-  tag = "0.1.2-9",
+  tag = "0.1.2-10",
   url = "git://github.com/LuaDist-testing/colyseus.git"
 }
 -- Original source
@@ -22,10 +22,8 @@ description = {
 
 dependencies = {
   "lua >= 5.1",
-  "lua-websockets",
   "dromozoa-json",
-  "lua-messagepack",
-  "lua-ev"
+  "lua-messagepack"
 }
 
 build = {
@@ -33,9 +31,9 @@ build = {
   install = {
     lua = {
       ['colyseus'] = 'src/colyseus.lua',
-      ['colyseus.room'] = 'src/room.lua',
-      ['colyseus.protocol'] = 'src/protocol.lua',
-      ['colyseus.events'] = 'src/events.lua',
+      ['colyseus.room'] = 'src/colyseus/room.lua',
+      ['colyseus.protocol'] = 'src/colyseus/protocol.lua',
+      ['colyseus.events'] = 'src/colyseus/events.lua',
     }
   }
 }
