@@ -1,11 +1,11 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "colyseus"
-version = "0.1.4-1"
+version = "0.1.5-1"
 
 -- LuaDist source
 source = {
-  tag = "0.1.4-1",
+  tag = "0.1.5-1",
   url = "git://github.com/LuaDist-testing/colyseus.git"
 }
 -- Original source
@@ -16,7 +16,7 @@ source = {
 description = {
   summary = "LUA/CoronaSDK client for Colyseus MMO Game Server",
   detailed = "Provides async client for Colyseus MMO Game Server",
-  homepage = "https://github.com/gamestdio/colyseus",
+  homepage = "http://gamestd.io/colyseus",
   license = "MIT/X11"
 }
 
