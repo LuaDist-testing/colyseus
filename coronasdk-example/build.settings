@@ -5,7 +5,23 @@
 
 settings =
 {
-	
+  plugins =
+  {
+    ["plugin.openssl"] =
+    {
+      publisherId = "com.coronalabs",
+      supportedPlatforms = { android=true, iphone=true, osx=true, ["win32-sim"]=true },
+    },
+    ["plugin.bit"] =
+    {
+      publisherId = "com.coronalabs"
+    },
+    -- ["plugin.colyseus"] =
+    -- {
+    --   publisherId = "io.gamestd",
+    -- },
+  },
+
 	orientation =
 	{
 		-- Supported values for orientation:
@@ -14,7 +30,7 @@ settings =
 		default = "portrait",
 		supported = { "portrait", }
 	},
-	
+
 	excludeFiles =
 	{
 		-- Include only the necessary icon files on each platform
@@ -67,7 +83,7 @@ settings =
 			--]]
 		}
 	},
-	
+
 	--
 	-- Android Section
 	--
