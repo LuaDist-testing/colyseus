@@ -1,11 +1,11 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "colyseus"
-version = "0.1.2-6"
+version = "0.1.2-7"
 
 -- LuaDist source
 source = {
-  tag = "0.1.2-6",
+  tag = "0.1.2-7",
   url = "git://github.com/LuaDist-testing/colyseus.git"
 }
 -- Original source
@@ -32,7 +32,10 @@ build = {
   type = 'none',
   install = {
     lua = {
-      ['colyseus'] = 'src/colyseus.lua'
+      ['colyseus'] = 'src/colyseus.lua',
+      ['colyseus.room'] = 'src/room.lua',
+      ['colyseus.protocol'] = 'src/protocol.lua',
+      ['colyseus.events'] = 'src/events.lua',
     }
   }
 }
