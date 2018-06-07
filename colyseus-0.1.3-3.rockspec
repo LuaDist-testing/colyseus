@@ -1,11 +1,11 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "colyseus"
-version = "0.1.3-2"
+version = "0.1.3-3"
 
 -- LuaDist source
 source = {
-  tag = "0.1.3-2",
+  tag = "0.1.3-3",
   url = "git://github.com/LuaDist-testing/colyseus.git"
 }
 -- Original source
