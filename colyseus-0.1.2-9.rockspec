@@ -1,11 +1,11 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "colyseus"
-version = "0.1.2-8"
+version = "0.1.2-9"
 
 -- LuaDist source
 source = {
-  tag = "0.1.2-8",
+  tag = "0.1.2-9",
   url = "git://github.com/LuaDist-testing/colyseus.git"
 }
 -- Original source
@@ -24,7 +24,8 @@ dependencies = {
   "lua >= 5.1",
   "lua-websockets",
   "dromozoa-json",
-  "lua-messagepack"
+  "lua-messagepack",
+  "lua-ev"
 }
 
 build = {
